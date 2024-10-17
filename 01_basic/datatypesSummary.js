@@ -21,7 +21,7 @@ const bigNumber = 218309182387231283913983912873n // add n at last of the number
 // console.log(typeof outsideTemp)
 
 
-//non primitive or reference data types
+//Non primitive or reference data types
 //memory m reference allocate kiya ja skta hai
 
 // Array, Objects, Functions  
@@ -42,3 +42,34 @@ const myFunction = function(){
 } 
 
 // datatype of all non primitive is object and for functions its function object
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+//Memory
+
+// 1. Stack (in primitive)
+
+// 2.Heap Memory (in non primitive)
+
+let myName = "vishal"
+
+let anotherName = myName
+
+anotherName = "kaushlani"
+
+// console.log(myName)
+// console.log(anotherName)
+
+let userOne = {
+    name:'John',
+    age:20
+}
+let userTwo = userOne
+
+userTwo.name = 'Vishal'  // it will change userOne name also non primitive data store in heap memory (user one and user two have same reference)
+
+console.log(userOne)
+console.log(userTwo)
+
