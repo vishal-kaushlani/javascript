@@ -19,7 +19,7 @@ const newArr = new Array(1,2,3,4)
 // console.log(newArr.indexOf(3))
 
 
-const otherArr = myArr.join()
+const otherArr = myArr.join() // to change into string syntax join(separator)
 console.log(otherArr)
 console.log(typeof otherArr)
 
